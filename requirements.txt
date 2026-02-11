@@ -1,0 +1,23 @@
+# requirements.txt
+# Auto-generated from scanning project imports on 2025-11-06.
+# These are the packages detected in the code. Versions are suggested minimal versions —
+# pin exact versions with `pip freeze > requirements.txt` after testing.
+
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+pydantic>=1.10.0
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+joblib>=1.2.0
+requests>=2.31.0
+ollama>=0.1.0
+python-multipart
+
+# Notes:
+# - If you want exact reproducible installs, run `pip install -r requirements.txt` in a
+#   virtual environment, exercise the app, then pin exact versions with
+#   `pip freeze > requirements.txt`.
+# - Some packages (pandas, scikit-learn) bring additional binary dependencies. Use
+#   a compatible Python version (3.8-3.11 recommended) and an environment that can
+#   install wheels for these packages on Windows.
